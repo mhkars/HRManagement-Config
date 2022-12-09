@@ -6,6 +6,13 @@ spring:
     username: portname
     password: 123
     port: 5672
+  data:
+    mongodb:
+      host: 34.28.66.79
+      port: 27777
+      database: postDb
+      username: AdminBilge
+      password: "root"
 
 #rabbitmq:
 #  exchange-auth: ${rabbitmq-exchange-auth}
