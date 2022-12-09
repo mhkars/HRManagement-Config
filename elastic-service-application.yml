@@ -1,0 +1,18 @@
+spring:
+  rabbitmq:
+    host:
+    username: team3
+    password: root
+    port: 5672
+
+myapplication:
+  user-service:
+    feign-client: http://localhost:9091/api/v1
+  elastic-service:
+    feign-client: http://localhost:9099/api/v1/elastic
+
+rabbitmq:
+  exchange-auth: ${rabbitmq-exchange-auth}
+  bindingKey: ${rabbitmq-bindingKey}
+  queueAcvitavted: ${rabbitmq-queueAcvitavted}
+  userUpdateQueue: ${rabbitmq-userUpdateQueue}
