@@ -29,3 +29,7 @@ rabbitmq:
   bindingKey: "bindingKey"
   queueActivatedCode: "queueActivatedCode"
   userUpdateQueue: "userUpdateQueue"
+myjwt:
+  secretKey: "testKey"
+  audience: "testAudience"
+  issuer: "testIssuer"
