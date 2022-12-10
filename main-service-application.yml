@@ -1,2 +1,8 @@
 server:
   port:9898
+rabbitmq:
+  exchange-main: "main-service-exchange"
+  bindingKey:     "main-binding-key"
+  queueActivatedCode: "main-queue-code"
+
+
