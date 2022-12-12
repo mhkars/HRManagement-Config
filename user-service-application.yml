@@ -3,15 +3,15 @@ server:
 spring:
   rabbitmq:
     host: localhost
-    username: portname
-    password: 123
+    username: team3
+    password: root
     port: 5672
   data:
     mongodb:
       host: 34.28.66.79
       port: 27777
       database: userDb
-      username: AdminBilge
+      username: team3
       password: "root"
 
 #rabbitmq:
