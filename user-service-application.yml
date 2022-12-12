@@ -10,7 +10,7 @@ spring:
     mongodb:
       host: 34.28.66.79
       port: 27777
-      database: postDb
+      database: userDb
       username: AdminBilge
       password: "root"
 
