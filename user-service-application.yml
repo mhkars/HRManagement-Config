@@ -1,11 +1,11 @@
 server:
   port: 9091
 spring:
-  rabbitmq:
-    host: localhost
-    username: team3
-    password: root
-    port: 5672
+#   rabbitmq:
+#     host: localhost
+#     username: team3
+#     password: root
+#     port: 5672
   data:
     mongodb:
       host: 34.28.66.79
