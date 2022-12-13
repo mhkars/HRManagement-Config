@@ -1,0 +1,30 @@
+server:
+  port: ${user-port}
+spring:
+#   rabbitmq:
+#     host: localhost
+#     username: team3
+#     password: root
+#     port: 5672
+  data:
+    mongodb:
+      host:  ${db_mongo_host}
+      port:  ${db_mongo_port}
+      database: ${db_mongo_userdb}
+      username: ${db_mongo_username}
+      password: ${db_mongo_password}
+
+#rabbitmq:
+#  exchange-auth: ${rabbitmq-exchange-auth}
+#  bindingKey: ${rabbitmq-bindingKey}
+#  queueActivatedCode: ${rabbitmq-queueActivatedCode}
+#  userUpdateQueue: ${rabbitmq-userUpdateQueue}
+rabbitmq:
+  exchange-auth: "exchange-auth"
+  bindingKey: "bindingKey"
+  queueActivatedCode: "queueActivatedCode"
+  userUpdateQueue: "userUpdateQueue"
+myjwt:
+  secretKey: "testKey"
+  audience: "testAudience"
+  issuer: "testIssuer"
